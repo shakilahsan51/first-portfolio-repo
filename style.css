@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.btn-primary {
+    color: white;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.banner {
+    display: flex;
+    margin: 0px 100px 0px 200px;
+    align-items: center;
+
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-subtitle {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 40;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* About Section Style  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    height: 300px;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    padding-top: 40px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    line-height: 30px;
+    /* text-align: center; */
+
+
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* what i do section */
+.what-i-do {
+    margin-top: 100px;
+
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    /* text-align: center; */
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+/* Resume Section */
+
+.section-title {
+    /* margin-bottom: 80px; */
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.resume-content {
+    display: flex;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.resume-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume .subtitle {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.resume .description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Contact Section */
+
+.contact {
+    display: flex;
+    gap: 80px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    width: 70%;
+    padding: 15px 25px;
+}
+
+#submit-btn {
+    width: 200px;
+}
+
+.contact-description {
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
